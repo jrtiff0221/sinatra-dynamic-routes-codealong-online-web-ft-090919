@@ -15,6 +15,7 @@ class App < Sinatra::Base
 
   # Code your final two routes here:
 
+<<<<<<< HEAD
   get "/goodbye/:name" do
     @user_name = params[:name]
     "Goodbye, #{@user_name}."
@@ -24,5 +25,7 @@ class App < Sinatra::Base
     @total = params[:num1].to_i * params[:num2].to_i
     "#{@total}."
   end
+=======
+>>>>>>> 1626cabc0ff549eb64117f0fe3a8462b7d5dd172
 
 end
